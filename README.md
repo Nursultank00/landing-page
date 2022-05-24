@@ -1,1 +1,1 @@
-# landing-page
+Just common site, that i tried to create.
