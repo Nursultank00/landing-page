@@ -12,6 +12,11 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+    cursor: pointer;
+    color: white;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -32,14 +37,14 @@ ul {
     font-weight: 700;
     display: flex;
     justify-content: space-between;
-    padding: 10px 200px;
+    padding: 10px 150px;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 200px;
+    padding: 50px 150px;
 }
 
 #left,
@@ -60,6 +65,7 @@ ul {
 .signing_header {
     background: #3882f6;
     color: white;
+    font-size: 14pt;
     border: 1px solid #3882f6;
     padding-inline: 2rem;
     padding-block: 7px;
@@ -129,3 +135,76 @@ h2 {
 }
 
 /* quote section*/
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 5rem 15rem
+}
+
+.quote h3{
+    font-weight: 100;
+    font-size: 20pt;
+    text-align: left;
+}
+
+.quote h4{
+    font-size: 16pt;
+    text-align: right;
+}
+
+/* modal section*/
+
+.wrapper {
+    background-color: white;
+    padding: 5rem 10rem;
+}
+
+.modal {
+    background-color: #3882f6;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+
+.signing_modal {
+    background: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding-inline: 2.5rem;
+    padding-block: 10px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.signing_modal:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #3882f6;
+}
+
+.text_modal {
+    color: #e5e7eb;
+}
+
+.text_modal div{
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 0;
+}
+
+/*footer section*/
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
